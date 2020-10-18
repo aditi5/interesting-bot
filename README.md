@@ -26,9 +26,10 @@ Use the following steps to setup:
     - Heroku deployment: https://devcenter.heroku.com/articles/git#deploying-code 
         
 # How do I test?
-1. JOIN CHANNEL: 
-    - https://discord.com/channels/767107605544828958/767107605544828961
-    - Chat with bot Named : https://discord.com/channels/@me/767108157465559040
+1. JOIN Server:
+    - https://discord.gg/T6Dme9G
+    - BotName: InterestingBot
+    - Channel: #General
 2. Send Content to Bot for results 
 
 # Contribution guidelines

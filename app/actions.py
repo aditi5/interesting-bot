@@ -33,9 +33,9 @@ async def on_message(message):
                 # retrieve searched item from message
                 searched_item = ' '.join(contents[1:])
                 db_conn = DBOps()
-
+                print(contents)
                 # searching from google column.
-                if '!google' in contents:
+                if contents[0] == '!google':
                     logger.info("Google Search for contents: {} from username: {}".format(
                         searched_item, message.author.name))
                     try:
@@ -53,7 +53,7 @@ async def on_message(message):
                         response = "Error Found during Google Search for contents: {} with error_details: {}".format(
                             contents, str(e))
                         logger.error(response)
-                elif '!recent' in contents:
+                elif contents[0] == '!recent':
                     try:
                         logger.info("Recent Search for contents: {} from username: {}".format(
                             searched_item, message.author.name))
