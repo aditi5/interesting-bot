@@ -18,12 +18,12 @@ Use the following steps to setup:
 1. Create a discord bot by following steps in the below link: 
     - https://discordpy.readthedocs.io/en/latest/discord.html
 2. Source code deployment:
-        + Create account on Heroku:https://signup.heroku.com/ 
-        + Create deployment application:https://signup.heroku.com/
-        + Connect with heroku CLI: https://devcenter.heroku.com/articles/heroku-connect-api
-        + Add Resource postgres database: https://devcenter.heroku.com/articles/draxlr
-        + Add Env Config variables : https://devcenter.heroku.com/articles/config-vars
-        + Heroku deployment: https://devcenter.heroku.com/articles/git#deploying-code 
+    - Create account on Heroku:https://signup.heroku.com/ 
+    - Create deployment application:https://signup.heroku.com/
+    - Connect with heroku CLI: https://devcenter.heroku.com/articles/heroku-connect-api
+    - Add Resource postgres database: https://devcenter.heroku.com/articles/draxlr
+    - Add Env Config variables : https://devcenter.heroku.com/articles/config-vars
+    - Heroku deployment: https://devcenter.heroku.com/articles/git#deploying-code 
         
 # How do I test?
 1. JOIN CHANNEL: 
